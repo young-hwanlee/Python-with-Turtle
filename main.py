@@ -44,7 +44,7 @@
 
 # print("Done")
 
-# # if example
+# # [if example]
 # # grade A, B, C, D
 # # score = 90
 # # score = 75
@@ -77,9 +77,10 @@
 
 
 # 6. Nested if/Loop
+# # [Nested if]
 # # num = 10
 # num = 7
-
+# 
 # if num > 0:
 #     print("Positive")
 #     if num == 7:
@@ -87,23 +88,40 @@
 # else:
 #     print("Negative")
 
-# num = 7
-num = 8
+# # num = 7
+# num = 8
+# 
+# if num > 0:
+#     print("Positive")
+#     if num == 7:
+#         print("Lucky!")
+#    
+#     if num % 2 == 0:
+#         print("Even")
+#     else:
+#         print("Odd")
+# 
+# else:
+#     print("Negative")
 
-if num > 0:
-    print("Positive")
-    if num == 7:
-        print("Lucky!")
-    
-    if num % 2 == 0:
-        print("Even")
-    else:
-        print("Odd")
-
-else:
-    print("Negative")
 
 
+# # [Nested while loop]
+# # y = 2
+# # x = 1
+# # while x <= 9:
+# #     print("2", "*", x, "=", 2 * x)
+# #     x = x + 1
+# 
+# y = 2
+# while y <= 9:
+#     x = 1
+#     while x <= 9:
+#         print(y, "*", x, "=", y * x)
+#         x = x + 1
+#     # print("\n")
+#     print("----------")
+#     y = y + 1
 # --------------------------------
 
 

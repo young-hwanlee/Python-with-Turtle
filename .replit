@@ -10,4 +10,6 @@ language = "bash"
 # run = "python3 5_circle.py"
 # run = "python3 5_dots.py"
 
-run = "python3 main.py"
+run = "python3 6_colored_dots.py"
+
+# run = "python3 main.py"
