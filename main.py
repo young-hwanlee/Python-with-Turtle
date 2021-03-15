@@ -1,3 +1,11 @@
+# 1. Introduction
+
+
+
+# 2. 입출력과 변수
+
+
+
 # # 3. Turtle Graphics
 # # Import turtle package
 # import turtle
@@ -8,7 +16,6 @@
 
 
 # 4. if condition (조건문)
-
 
 
 
