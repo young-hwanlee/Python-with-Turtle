@@ -1,11 +1,11 @@
 # 1. Introduction
 # https://colab.research.google.com/drive/14EIZJLH2_NNi8QQxtqvgB6CgHqrLPkUa?authuser=1#scrollTo=hp30GdAciSbk
-
+# --------------------------------
 
 
 # 2. 입출력과 변수
 # https://colab.research.google.com/drive/14EIZJLH2_NNi8QQxtqvgB6CgHqrLPkUa?authuser=1#scrollTo=hp30GdAciSbk
-
+# --------------------------------
 
 
 # # 3. Turtle Graphics
@@ -14,7 +14,7 @@
 
 # turtle.circle(100)
 # turtle.circle(-100)
-
+# --------------------------------
 
 
 # 4. if condition (조건문)
@@ -59,27 +59,58 @@
 #     print("C")
 # else:
 #     print("D")
-
+# --------------------------------
 
 
 # 5. Loop
+# count = 0
+# while count < 4:
+#     print("Run", count)
+#     count = count + 1
+
+# count = 1
+# while count <= 4:
+#     print("Run", count)
+#     count = count + 1
+
+import turtle
+# # Rectangle with loops
+# count = 0
+# while count < 4:
+#     turtle.forward(100)
+#     turtle.right(90)
+#     count = count + 1
+
+# # Polygon with loops
+# n = 5
+# n = 6
+# n = 7
+n = 20
+
+count = 0
+while count < n:
+    # turtle.forward(100)
+    turtle.forward(200/n)
+    turtle.right(360/n)
+    count = count + 1
 
 
+# --------------------------------
 
 # 6. Nested if/Loop
-
+# --------------------------------
 
 
 # 7. For Loop
-
+# --------------------------------
 
 
 # 8. Nest for Loop
-
+# --------------------------------
 
 
 # 9. python LIST!
-
+# --------------------------------
 
 
 # 10. for+list and break&continue
