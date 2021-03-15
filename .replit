@@ -16,6 +16,6 @@ language = "bash"
 # run = "python3 7_star.py"
 # run = "python3 7_rotating_square.py"
 # run = "python3 7_rotating_squares.py"
-run = "python3 7_rotating_pentagon.py"
+# run = "python3 7_rotating_pentagon.py"
 
-#run = "python3 main.py"
+run = "python3 main.py"

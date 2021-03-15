@@ -129,6 +129,7 @@
 # --------------------------------
 
 
+
 # [7. For Loop]
 # # [Basic loop in ascending order]
 # i = 0
@@ -167,14 +168,128 @@
 # --------------------------------
 
 
-# [8. Nest for Loop]
 
+# [8. for nested Loop]
+# # [Draw dots]
+# import turtle
+
+# # for y in range(0, 200, 20):
+# #     for x in range(0, 200, 20):
+# #         turtle.up()
+# #         turtle.goto(x, y)
+# #         turtle.down()
+# #         if x == y:
+# #             turtle.color("red")
+# #         else:
+# #             turtle.color("black")
+# #         turtle.dot(5)
+# 
+# # for y in range(0, 200, 20):
+# #     for x in range(0, 200, 20):
+# #         turtle.up()
+# #         turtle.goto(x, y)
+# #         turtle.down()
+# #         if x == y:
+# #             turtle.color("red")
+# #         elif x + y == 180:
+# #             turtle.color("blue")
+# #         else:
+# #             turtle.color("black")
+# #         turtle.dot(5)
+# 
+# for y in range(0, 200, 20):
+#     for x in range(0, 200, 20):
+#         turtle.up()
+#         turtle.goto(x, y)
+#         turtle.down()
+#         if x == y:
+#             turtle.color("red")
+#         elif x + y == 180:
+#             turtle.color("blue")
+#         else:
+#             turtle.color("black")
+#         turtle.dot(x/40 + y/40 + 1)
+
+
+
+# # [Draw dots like a shape of right triangle]
+# import turtle
+# 
+# # for y in range(10):
+# #     for x in range(y):
+# #         r_x = x * 20
+# #         r_y = y * 20      
+# #         turtle.up()
+# #         turtle.goto(r_x, r_y)
+# #         turtle.down()
+# #         turtle.dot(5)
+# 
+# for y in range(10):
+#     for x in range(y, 10):
+#         r_x = x * 20
+#         r_y = y * 20
+#         turtle.up()
+#         turtle.goto(r_x, r_y)
+#         turtle.down()
+#         turtle.dot(5)
+
+
+
+# # [Draw dots like a shape of equilateral triangle]
+# import turtle
+# 
+# # for y in range(10):
+# #     for x in range(y, 10):
+# #         x_coor = x * 20 - (y * 20)
+# #         y_coor = y * 20
+# #         turtle.up()
+# #         turtle.goto(x_coor, y_coor)
+# #         turtle.down()
+# #         turtle.dot(5)
+# 
+# for y in range(10):
+#     for x in range(y, 10):
+#         x_coor = x * 20 - (y * 10)
+#         y_coor = y * 20
+#         # print(x_coor, y_coor)
+#         turtle.up()
+#         turtle.goto(x_coor, y_coor)
+#         turtle.down()
+#         turtle.dot(5)
+
+
+
+# # [Draw circles]
+# import turtle
+# 
+# # for i in range(10):
+# #     turtle.circle(i*10)
+# 
+# # for i in range(10):
+# #     turtle.up()
+# #     turtle.goto(0, -i*10)
+# #     turtle.down()
+# #     turtle.circle(i*10)
+# 
+# for i in range(10, 0, -1):
+#     turtle.up()
+#     turtle.goto(0, -i*10)
+#     turtle.down()
+#     if i % 2 == 0:
+#         turtle.color("red", "red")      # (drawing color, filling color)
+#     else:
+#         turtle.color("blue", "blue")
+#     turtle.begin_fill()
+#     turtle.circle(i*10)
+#     turtle.end_fill()
 # --------------------------------
+
 
 
 # [9. python LIST!]
 
 # --------------------------------
+
 
 
 # [10. for+list and break&continue]
