@@ -77,6 +77,32 @@
 
 
 # 6. Nested if/Loop
+# # num = 10
+# num = 7
+
+# if num > 0:
+#     print("Positive")
+#     if num == 7:
+#         print("Lucky!")
+# else:
+#     print("Negative")
+
+# num = 7
+num = 8
+
+if num > 0:
+    print("Positive")
+    if num == 7:
+        print("Lucky!")
+    
+    if num % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+
+else:
+    print("Negative")
+
 
 # --------------------------------
 
