@@ -1,14 +1,16 @@
-# 1. Introduction
+# [1. Introduction]
 # https://colab.research.google.com/drive/14EIZJLH2_NNi8QQxtqvgB6CgHqrLPkUa?authuser=1#scrollTo=hp30GdAciSbk
 # --------------------------------
 
 
-# 2. 입출력과 변수
+
+# [2. 입출력과 변수]
 # https://colab.research.google.com/drive/14EIZJLH2_NNi8QQxtqvgB6CgHqrLPkUa?authuser=1#scrollTo=hp30GdAciSbk
 # --------------------------------
 
 
-# # 3. Turtle Graphics
+
+# # [3. Turtle Graphics]
 # # Import turtle package
 # import turtle
 
@@ -17,7 +19,8 @@
 # --------------------------------
 
 
-# 4. if condition (조건문)
+
+# [4. if condition (조건문)]
 # num = 10
 # num = -10
 
@@ -62,7 +65,8 @@
 # --------------------------------
 
 
-# 5. Loop
+
+# [5. Loop]
 # count = 0
 # while count < 4:
 #     print("Run", count)
@@ -76,7 +80,7 @@
 
 
 
-# 6. Nested if/Loop
+# [6. Nested if/Loop]
 # # [Nested if]
 # # num = 10
 # num = 7
@@ -125,19 +129,52 @@
 # --------------------------------
 
 
-# 7. For Loop
+# [7. For Loop]
+# # [Basic loop in ascending order]
+# i = 0
+# while i < 4:
+#     print("while run", i)
+#     i = i + 1
+# 
+# for i in range(0, 4, 1):
+#     print("for run", i)
+
+# for i in range(1, 10, 1):
+#     print("for run", i)
+
+# for i in range(1, 10, 2):
+#     print("for run", i)
+
+# for i in range(0, 10, 1):
+#     print("for run", i)
+
+# for i in range(10):
+#     print("for run", i)
+
+# # [Loop in descending order]
+# for i in range(10, 0, -1):
+#     print("for run", i)
+
+# for i in range(10, -1, -1):
+#     print("for run", i)
+
+# for i in range(9, -1, -1):
+#     print("for run", i)
+
+# for i in range(9, -1, -2):
+#     print("for run", i)
 
 # --------------------------------
 
 
-# 8. Nest for Loop
+# [8. Nest for Loop]
 
 # --------------------------------
 
 
-# 9. python LIST!
+# [9. python LIST!]
 
 # --------------------------------
 
 
-# 10. for+list and break&continue
+# [10. for+list and break&continue]
