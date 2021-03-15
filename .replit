@@ -12,6 +12,7 @@ language = "bash"
 
 # run = "python3 6_colored_dots.py"
 
-run = "python3 7_rectangle.py"
+# run = "python3 7_polygon_with_for_loop.py"
+run = "python3 7_star.py"
 
 #run = "python3 main.py"
