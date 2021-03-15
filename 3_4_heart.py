@@ -2,7 +2,8 @@
 import turtle
 
 # Set the fill color to red
-turtle.fillcolor('red')
+# turtle.fillcolor('red')
+turtle.fillcolor('blue')
 
 # Start filling the color
 turtle.begin_fill()
