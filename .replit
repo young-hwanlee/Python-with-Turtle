@@ -2,9 +2,12 @@ language = "bash"
 # run = ""
 
 # run = "echo hello word"
+
 # run = "python3 3_4_heart.py"
 # run = "python3 3_4_rectangle.py"
+
 # run = "python3 5_polygon_with_loops.py"
-run = "python3 5_circle.py"
+# run = "python3 5_circle.py"
+run = "python3 5_dots.py"
 
 # run = "python3 main.py"
