@@ -1,4 +1,5 @@
 language = "bash"
 # run = "echo hello word"
 # run = "python3 heart.py"
-run = "python3 main.py"
+# run = "python3 main.py"
+run = "python3 3_4_rectangle.py"
