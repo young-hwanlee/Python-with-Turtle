@@ -333,10 +333,16 @@
 # print("min", grade[0])
 # print("max", grade[-1])
 
-grade = [[90, 21, 84], [90, 22, 84], [90, 21, 84]]
-print(grade[0])
-print(grade[1])
-
+# grade = [[90, 21, 84], [90, 22, 84], [90, 21, 84]]
+# print(grade[0])
+# print(grade[1])
+# 
+# x = grade[0]
+# print(x[1])
+# print(grade[0][1])
+# 
+# print(grade[2][2])
+# print(grade[2][0])
 # --------------------------------
 
 
