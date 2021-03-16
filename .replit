@@ -22,5 +22,7 @@ language = "bash"
 # run = "python3 8_dots_right_triangular_shape.py"
 # run = "python3 8_dots_equilateral_triangular_shape.py"
 # run = "python3 8_circles.py"
+
+run = "python3 10_circles.py"
 # --------------------------------
-run = "python3 main.py"
+#run = "python3 main.py"
