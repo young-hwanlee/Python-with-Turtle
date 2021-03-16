@@ -348,3 +348,50 @@
 
 
 # [10. for+list and break&continue]
+# grade = [90, 100, 20, 30, 78]
+# 
+# # for i in range(len(grade)):
+# #     print(i, grade[i])
+# 
+# for score in grade:
+#     print(score)
+
+# grade = [99, 100, 89, 30, 78]
+# 
+# for i in range(len(grade)):
+#     # if grade[i] == 99:
+#     #     grade[i] = grade[i] + 1
+# 
+#     if grade[i] % 10 == 9:
+#         grade[i] = grade[i] + 1
+# 
+# print(grade)
+
+# grade = [99, 100, 89, 30, 79]
+# 
+# for i in range(len(grade)):
+#     if grade[i] % 10 == 9:
+#         grade[i] = grade[i] + 1
+# 
+# print(grade)
+
+# grade = [99, 100, 89, 30, 79, 77]
+# 
+# for i in range(len(grade)):
+#     if grade[i] % 10 == 9:
+#         grade[i] = grade[i] + 1
+# 
+#     if grade[i] == 77:
+#         grade[i] = grade[i] + 5
+# print(grade)
+
+grade = [99, 88, 0, 100, 89, 30, 79, 0, 77]
+
+for i in range(len(grade)):
+    # if grade[i] == 0:
+    #     break
+
+    if grade[i] == 0:
+        continue
+    
+    print(i, grade[i])
