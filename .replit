@@ -1,6 +1,6 @@
 language = "bash"
 # run = ""
-
+# --------------------------------
 # run = "echo hello word"
 
 # run = "python3 3_4_heart.py"
@@ -21,6 +21,6 @@ language = "bash"
 # run = "python3 8_dots_using_for_loop.py"
 # run = "python3 8_dots_right_triangular_shape.py"
 # run = "python3 8_dots_equilateral_triangular_shape.py"
-run = "python3 8_circles.py"
-
-#run = "python3 main.py"
+# run = "python3 8_circles.py"
+# --------------------------------
+run = "python3 main.py"

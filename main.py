@@ -287,6 +287,51 @@
 
 
 # [9. python LIST!]
+# [10명 학생들의 점수 기록]
+# 각각 변수 vs list
+
+# s0 = 99
+# s1 = 100
+# s2 = 90
+
+# grade = [90, 100, 80, 70, 60]
+# print(grade)
+# print(grade[0])
+# print(grade[2])
+# # print(grade[5])
+
+# grade = [90, 100, 20, 44, 80, 70, 60]
+# print("len", len(grade))
+
+# grade = [90, 100, 20, 44, 80, 90, 70, 60]
+# print(grade[0])
+# print(grade[len(grade) - 1])
+# print(grade[len(grade) - 2])
+# 
+# print(grade[-1])
+# print(grade[-2])
+# 
+# print("len", len(grade))
+
+# grade = [90, 44, 80, 90, 70, 60]
+# # print(grade[-1])
+# # print(grade[-2])
+# 
+# print(grade)
+# 
+# grade[0] = 100
+# print(grade)
+# 
+# grade.sort()
+# print(grade)
+# 
+# print("min", grade[0])
+# print("max", grade[-1])
+
+# grade = [90, 44, 80, 90, 70, 60, 100, 10]
+# grade.sort()
+# print("min", grade[0])
+# print("max", grade[-1])
 
 # --------------------------------
 
